@@ -9,7 +9,7 @@ model = joblib.load("src/churn_model.pkl")
 scaler = joblib.load("src/scaler.pkl")
 
 # Load dataset for visualization
-df = pd.read_csv("F:\clg\PYTHON25\MachineLearning\project\Customer Churn Prediction\data\WA_Fn-UseC_-Telco-Customer-Churn.csv")
+df = pd.read_csv("data/Telco-Customer-Churn.csv")
 
 # App Title
 st.title("📊 Customer Churn Prediction App (Random Forest)")
