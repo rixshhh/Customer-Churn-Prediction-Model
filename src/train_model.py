@@ -32,7 +32,7 @@ scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
 X_test = scaler.fit_transform(X_text)
 
-# Train Model -> RF
+# Train Model 
 model_rf = LogisticRegression(class_weight='balanced',max_iter=1000)
 model_rf.fit(X_train,y_train)
 
