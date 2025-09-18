@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report , confusion_matrix
 
 # LOAD DATASET
-df = pd.read_csv('data\WA_Fn-UseC_-Telco-Customer-Churn.csv')
+df = pd.read_csv('data/Telco-Customer-Churn.csv')
 
 # ENCODE TARGET INTO YES:1 AND NO:0
 df['Churn'] = df['Churn'].map({'Yes':1 , 'No':0})
