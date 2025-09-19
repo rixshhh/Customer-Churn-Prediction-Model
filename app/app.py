@@ -12,7 +12,7 @@ scaler = joblib.load("src/scaler.pkl")
 df = pd.read_csv("data/Telco-Customer-Churn.csv")
 
 # App Title
-st.title("📊 Customer Churn Prediction App (Random Forest)")
+st.title("📊 Customer Churn Prediction App (LogisticRegression)")
 
 # Sidebar Navigation
 page = st.sidebar.selectbox("📌 Choose a Page", ["Data Insights", "Prediction"])
