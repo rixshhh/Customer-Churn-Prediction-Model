@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Customer-Churn_Prediction
 =======
 # 📊 Customer Churn Prediction with Random Forest
