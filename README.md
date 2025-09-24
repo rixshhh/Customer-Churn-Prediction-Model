@@ -1,6 +1,6 @@
 # Customer-Churn_Prediction
 =======
-# 📊 Customer Churn Prediction with Random Forest
+# 📊 Customer Churn Prediction with LogisticRegression
 
 This project predicts **customer churn** (whether a customer will leave or stay) using the **Telco Customer Churn dataset**.  
 It includes **data visualization** and an **interactive Streamlit app** for predictions.
