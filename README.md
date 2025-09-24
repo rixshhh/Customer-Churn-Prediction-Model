@@ -15,7 +15,7 @@ It includes **data visualization** and an **interactive Streamlit app** for pred
   - Monthly charges distribution
   - Tenure vs churn
 - **Machine Learning**:
-  - Random Forest Classifier trained on selected features
+  - Logistic Regression Classifier trained on selected features
   - Scikit-learn preprocessing + scaling
 - **Streamlit Web App**:
   - User-friendly interface
